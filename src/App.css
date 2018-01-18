@@ -1,11 +1,14 @@
 
+*{
+    font-family: 'Ranchers', cursive;
+    font-size:1.2vw;
+}
+
+
 body {
   background-color:lightslategray;
   padding: 20px;
   margin: 0;
-}
-h1, h2, p, ul, li {
-  font-family: sans-serif;
 }
 ul.header li {
   display: inline;
@@ -66,3 +69,7 @@ ul.header li a {
   left: 0;
 }
 
+a {
+    text-decoration: none;
+
+}

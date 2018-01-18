@@ -14,7 +14,7 @@ import './App.css'
 const BasicExample = () => (
     <Router>
         <div  id="container">
-            <div id="main-header">in-extremo</div>
+            <div id="main-header">in-extremo Norbert Brzeski</div>
 
             <div id="body">
             <ul className="header" >
