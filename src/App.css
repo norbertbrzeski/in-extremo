@@ -31,7 +31,7 @@ ul.header li a {
 }
 .content {
   background-color: darkcyan;
-  padding: 20px;
+
 }
 .content h2 {
   padding: 0;
@@ -73,3 +73,55 @@ a {
     text-decoration: none;
 
 }
+
+
+@keyframes App-logo-spin {
+    from { transform: rotateY(0deg); }
+    to { transform: rotateY(360deg); }
+}
+
+
+/*pages*/
+
+.logos {
+    animation: App-logo-spin infinite 5s linear;
+    height: 80px;
+    display: table;
+    margin: 0 auto;
+}
+
+.css-page {
+    background-color:lightcyan;
+    padding: 20px;
+}
+
+.html-page{
+    padding: 20px;
+    background:lightgoldenrodyellow;
+}
+
+.git-page{
+    padding: 20px;
+    background:lightgrey;
+}
+
+.react-page{
+    padding: 20px;
+    background-color:lightskyblue;
+}
+
+.javascript-page{
+    padding: 20px;
+    background-color:lightseagreen;
+}
+
+/*home*/
+
+.home-parallax {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:500px;
+}
+
