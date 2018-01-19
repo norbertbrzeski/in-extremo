@@ -34,7 +34,7 @@ const BasicExample = () => (
                 <hr/>
             <div className="content">
 
-            <Route exact path="/" component={Home}/>
+
             <Route path="/GIT" component={GIT}/>
             <Route path="/HTML" component={HTML}/>
             <Route path="/CSS" component={CSS}/>
@@ -43,7 +43,7 @@ const BasicExample = () => (
             </div>
             </div>
 
-
+            <Route exact path="/" component={Home}/>
 
         </div>
     </Router>

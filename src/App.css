@@ -1,13 +1,12 @@
 
 *{
     font-family: 'Ranchers', cursive;
-    font-size:1.2vw;
+    font-size:1.3vw;
 }
 
 
 body {
   background-color:lightslategray;
-  padding: 20px;
   margin: 0;
 }
 ul.header li {
@@ -29,10 +28,7 @@ ul.header li a {
   display: inline-block;
 
 }
-.content {
-  background-color: darkcyan;
 
-}
 .content h2 {
   padding: 0;
   margin: 0;
@@ -55,7 +51,8 @@ ul.header li a {
     text-decoration: none;
     display: table;
     margin: 0 auto;
-    font-size:1.2vw;
+    height:100px;
+    padding-top: 50px;
 }
 
 #container {
@@ -93,35 +90,49 @@ a {
 .css-page {
     background-color:lightcyan;
     padding: 20px;
+    margin:0 20px 0 20px;
 }
 
 .html-page{
     padding: 20px;
     background:lightgoldenrodyellow;
+    margin:0 20px 0 20px;
 }
 
 .git-page{
     padding: 20px;
     background:lightgrey;
+    margin:0 20px 0 20px;
 }
 
 .react-page{
     padding: 20px;
     background-color:lightskyblue;
+    margin:0 20px 0 20px;
 }
 
 .javascript-page{
     padding: 20px;
     background-color:lightseagreen;
+    margin:0 20px 0 20px;
 }
+
 
 /*home*/
 
-.home-parallax {
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+
+
+
+.HomeDivs {
     height:500px;
+    padding: 20px;
 }
+
+
+
+
+
+
+
+
 
