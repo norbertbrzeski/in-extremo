@@ -1,18 +1,13 @@
 import React, { Component } from "react";
-import BackgroundOne from './images/bg1.jpg'
-import BackgroundTwo from './images/bg2.jpg'
-import BackgroundThree from './images/bg3.jpg'
-import { Parallax, Background } from 'react-parallax';
+
+import { Parallax } from 'react-parallax';
 
 
 
 class Home extends Component {
     render() {
         return (
-            <div>
-
-
-
+            <div className=' animated  fadeIn   '>
                 <Parallax
                     blur={{ min: -23, max: 15 }}
                     bgImage={require('./images/bg3.jpg')}

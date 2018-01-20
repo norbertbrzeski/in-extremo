@@ -5,7 +5,7 @@ import JavaScriptImg from '../images/javascript-128.png'
 class JavaScript extends Component {
     render() {
         return (
-            <div className='javascript-page'>
+            <div className=' javascript-page animated fadeIn   '>
                 <img src={JavaScriptImg} className="logos" alt="logo" />
 
                 <h2>STUFF</h2>

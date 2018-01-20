@@ -7,7 +7,7 @@ import CSSImg from '../images/css-im.png'
 class CSS extends Component {
     render() {
         return (
-            <div className='css-page'>
+            <div className='css-page animated fadeIn   '>
                 <img src={CSSImg} className="logos" alt="logo" />
 
                 <h2>STUFF</h2>

@@ -5,7 +5,7 @@ import ReactJsImg from '../images/react-128.png'
 class ReactJs extends Component {
     render() {
         return (
-            <div className='react-page'>
+            <div className='react-page animated fadeIn   '>
                 <img src={ReactJsImg} className="logos" alt="logo" />
 
                 <h2>STUFF</h2>
