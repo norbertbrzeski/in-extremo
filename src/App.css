@@ -1,7 +1,6 @@
 
 *{
     font-family: 'Ranchers', cursive;
-    font-size:1.8vw;
 }
 
 
@@ -50,7 +49,7 @@ ul.header li a {
 #main-header {
     display: table;
     margin: 0 auto;
-    font-size:2.5vw;
+    font-size:4.3vw;
 }
 
 .footer {
@@ -143,4 +142,42 @@ a {
 #myBtn:hover {
     background-color: #555;
 }
+
+
+@media (max-width: 768px) {
+li > a{
+    font-size:3.5vw;
+    width: 25%;
+}
+    body{
+        font-size:3vw
+    }
+}
+@media  (min-width: 768px) and (max-width: 992px) {
+
+    li > a{
+        font-size:2vw;
+    }
+    body{
+        font-size:2vw
+    }
+}
+@media  (min-width: 992px) and (max-width: 1200px) {
+    li > a{
+        font-size:2vw;
+    }
+    body{
+        font-size:2vw
+    }
+}
+@media (min-width: 1200px) {
+    li > a{
+        font-size:1.7vw;
+    }
+    body{
+        font-size:2vw
+    }
+}
+
+
 
