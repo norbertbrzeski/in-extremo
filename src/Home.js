@@ -13,7 +13,7 @@ class Home extends Component {
             <div className=' animated  fadeIn '>
 
 
-                <div id="section-1" className='HomeDivs'> <div className="col-lg-8 my-auto">
+                <div id="section-1" className='HomeDivs '> <div className="col-lg-8 my-auto">
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-6">
@@ -61,7 +61,7 @@ class Home extends Component {
 
 
 
-                <div id="section-2" className='HomeDivs'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque itaque odit! Accusamus,
+                <div  className='HomeDivs feature-item'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid atque itaque odit! Accusamus,
                     autem, eius? Iure labore nisi optio, quas velit voluptas? Et impedit incidunt iste odio quos
                     tempora veniam.
                 </div>

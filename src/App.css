@@ -122,8 +122,12 @@ a {
 /*home*/
 .HomeDivs {
     height:500px;
-    padding: 20px;
+
 }
+.feature-item{
+    padding: 20px 20px 20px 20px;
+}
+
 #myBtn {
     /*display: none;*/
     position: fixed;
@@ -137,6 +141,7 @@ a {
     cursor: pointer;
     padding: 15px;
     border-radius: 10px;
+    font-size: 2vw;
 }
 
 #myBtn:hover {
