@@ -13,21 +13,21 @@ class Home extends Component {
             <div className=' animated  fadeIn '>
 
 
-                <div id="section-1" className='HomeDivs'> <div className="col-lg-8 my-auto">
+                <div id="section-1" className='HomeDivs'>
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="feature-item">
                                     <Mail />
                                     <h3>Device Mockups</h3>
-                                    <p className="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magni minima quisquam, ratione repellendus sunt.</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="feature-item">
                                     <Face/>
                                     <h3>Flexible Use</h3>
-                                    <p className="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi consequuntur dolorem laboriosam.</p>
                                 </div>
                             </div>
                         </div>
@@ -36,14 +36,14 @@ class Home extends Component {
                                 <div className="feature-item">
                                         <Scanner/>
                                     <h3>Free to Use</h3>
-                                    <p className="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste obcaecati tempore vitae!</p>
                                 </div>
                             </div>
                             <div className="col-lg-6">
                                 <div className="feature-item">
                                             <Box/>
                                     <h3>Open Source</h3>
-                                    <p className="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea hic quae rerum unde veniam.</p>
                                 </div>
                             </div>
                         </div>
@@ -92,7 +92,7 @@ class Home extends Component {
 
 
 </div>
-            </div>
+
         );
     }
 }

@@ -16,6 +16,9 @@ import $ from 'jquery'
 import 'animate.css'
 import {Col} from 'react-bootstrap'
 
+import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/css/bootstrap-theme.css';
+
 class HomePage extends React.Component {
     render() {
         return (
@@ -25,7 +28,7 @@ class HomePage extends React.Component {
                 <div className='animated fadeIn ' id="main-header">in-extremo </div>
             <div id="body">
 
-                <Col xs={12} sm={3} md={2} lg={1}>
+                <Col xs={12} sm={12} md={12} lg={12}>
             <ul className="header animated fadeIn" >
                 <li className='responsive-links'><NavLink  exact to="/" activeClassName="active" >in-extremo</NavLink></li>
                 <li className='responsive-links'><NavLink  to="/GIT" activeClassName="active">GIT  </NavLink></li>

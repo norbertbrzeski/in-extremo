@@ -147,7 +147,6 @@ a {
 @media (max-width: 768px) {
 li > a{
     font-size:3.5vw;
-    width: 25%;
 }
     body{
         font-size:3vw
