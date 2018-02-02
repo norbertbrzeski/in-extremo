@@ -1,11 +1,12 @@
 
 *{
-    font-family: 'Ranchers', cursive;
+    font-family: 'Viga', sans-serif;
+    background-color:lightslategray;
 }
 
 
 body {
-  background-color:lightslategray;
+  background-color:lightcoral;
   margin: 0;
 }
 ul.header li {

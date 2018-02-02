@@ -28,16 +28,16 @@ class HomePage extends React.Component {
                 <div className='animated fadeIn ' id="main-header">in-extremo </div>
             <div id="body">
 
-                <Col xs={12} sm={12} md={12} lg={12}>
+
             <ul className="header animated fadeIn" >
-                <li className='responsive-links'><NavLink  exact to="/" activeClassName="active" >in-extremo</NavLink></li>
-                <li className='responsive-links'><NavLink  to="/GIT" activeClassName="active">GIT  </NavLink></li>
-                <li className='responsive-links'><NavLink  to="/HTML" activeClassName="active">HTML</NavLink></li>
-                <li className='responsive-links'><NavLink  to="/CSS" activeClassName="active">CSS</NavLink></li>
-                <li className='responsive-links'><NavLink  to="/JavaScript" activeClassName="active">JavaScript</NavLink></li>
-                <li className='responsive-links'><NavLink  to="/ReactJs" activeClassName="active">React</NavLink></li>
+                 <li><NavLink  exact to="/" activeClassName="active" >in-extremo</NavLink></li>
+                 <li><NavLink  to="/GIT" activeClassName="active">GIT  </NavLink></li>
+                 <li><NavLink  to="/HTML" activeClassName="active">HTML</NavLink></li>
+                 <li><NavLink  to="/CSS" activeClassName="active">CSS</NavLink></li>
+                <li> <NavLink  to="/JavaScript" activeClassName="active">JavaScript</NavLink></li>
+                 <li><NavLink  to="/ReactJs" activeClassName="active">React</NavLink></li>
             </ul>
-                </Col>
+
 
                 <hr/>
             <div className="content  ">

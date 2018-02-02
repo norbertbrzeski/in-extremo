@@ -15,15 +15,14 @@ class Home extends Component {
 
                 <div id="section-1" className='HomeDivs'>
                     <div className="container-fluid">
-                        <div className="row">
-                            <div className="col-lg-6">
+                        <div>                           <div >
                                 <div className="feature-item">
                                     <Mail />
                                     <h3>Device Mockups</h3>
                                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet magni minima quisquam, ratione repellendus sunt.</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div >
                                 <div className="feature-item">
                                     <Face/>
                                     <h3>Flexible Use</h3>
@@ -31,15 +30,15 @@ class Home extends Component {
                                 </div>
                             </div>
                         </div>
-                        <div className="row">
-                            <div className="col-lg-6">
+                        <div>
+                            <div >
                                 <div className="feature-item">
                                         <Scanner/>
                                     <h3>Free to Use</h3>
                                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos iste obcaecati tempore vitae!</p>
                                 </div>
                             </div>
-                            <div className="col-lg-6">
+                            <div >
                                 <div className="feature-item">
                                             <Box/>
                                     <h3>Open Source</h3>
