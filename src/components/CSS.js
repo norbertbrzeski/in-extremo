@@ -17,7 +17,7 @@ class CSS extends Component {
                     <li>Nulla pulvinar diam</li>
                     <li>Facilisis bibendum</li>
                     <li>Vestibulum vulputate</li>
-                    <li>Eget erat</li>
+
                 </ol>
             </div>
         );
